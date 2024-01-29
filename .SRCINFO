@@ -1,0 +1,19 @@
+pkgbase = linux-firmware-joshua-git
+	pkgdesc = Firmware files for Linux - RK3588 specific firmware, with patches of joshua
+	pkgver = 20240126.e60ff15
+	pkgrel = 1
+	url = https://github.com/Joshua-Riek/firmware
+	arch = aarch64
+	license = GPL2
+	license = GPL3
+	license = custom
+	makedepends = git
+	provides = linux-firmware=20240126.e60ff15
+	provides = linux-firmware-joshua=20240126.e60ff15
+	conflicts = linux-firmware
+	conflicts = linux-firmware-orangepi
+	options = !strip
+	source = git+https://github.com/Joshua-Riek/firmware.git
+	sha256sums = SKIP
+
+pkgname = linux-firmware-joshua-git
